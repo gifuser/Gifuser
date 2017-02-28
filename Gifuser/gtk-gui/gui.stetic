@@ -562,7 +562,6 @@
             <child>
               <widget class="Gtk.Image" id="image1">
                 <property name="MemberName" />
-                <property name="Pixbuf">resource:Gifuser.gifuser-icons.gifuser-128.png</property>
               </widget>
               <packing>
                 <property name="Position">1</property>

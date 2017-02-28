@@ -79,7 +79,6 @@ namespace Gifuser.Help.About
 			// Container child vbox2.Gtk.Box+BoxChild
 			this.image1 = new global::Gtk.Image();
 			this.image1.Name = "image1";
-			this.image1.Pixbuf = global::Gdk.Pixbuf.LoadFromResource("Gifuser.gifuser-icons.gifuser-128.png");
 			this.vbox2.Add(this.image1);
 			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.image1]));
 			w5.Position = 1;

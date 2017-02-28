@@ -244,14 +244,11 @@ public partial class MainWindow : Gtk.Window
 				try
 				{
 					Directory.CreateDirectory(_settings.Recordings.Folder);
-
-					DateTime now = DateTime.Now;
-
+                    
 					string fileName = System.IO.Path.Combine(
 						_settings.Recordings.Folder,
 						string.Format(
-							"{0}-{1}{2}",
-							now.ToString("U", CultureInfo.CurrentCulture),
+							"{0}{1}",
 							Guid.NewGuid().ToString("N"),
 							".gif"
 						)
